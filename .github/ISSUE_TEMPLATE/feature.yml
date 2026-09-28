@@ -1,0 +1,34 @@
+name: Feature
+description: En avgränsad funktion eller förmåga som bidrar till en epic.
+type: Feature
+body:
+  - type: input
+    id: bestallare
+    attributes:
+      label: Beställare
+      description: Vem på Samhall blir glad när detta jobb blir Done? En processledare, person eller avdelning.
+    validations:
+      required: true
+  - type: input
+    id: mottagare-anvandare
+    attributes:
+      label: Mottagare/Användare
+      description: Vilka tar emot eller använder resultatet?
+    validations:
+      required: true
+  - type: textarea
+    id: beskrivning
+    attributes:
+      label: Beskrivning
+      description: Vad ska byggas och varför? Ange också "parent" till rätt epic.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptanskriterier
+    attributes:
+      label: Acceptanskriterier
+      description: Vad ska vara uppfyllt för att featuren ska anses vara klar?
+      value: |
+        - [ ]
+    validations:
+      required: false
