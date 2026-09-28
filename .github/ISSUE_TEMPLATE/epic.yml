@@ -1,5 +1,5 @@
 name: Epic
-description: Ett stort, övergripande arbetspaket som spänner över flera features.
+description: Ett stort övergripande värde som vi jobbar mot.
 type: Epic
 body:
   - type: input
@@ -7,27 +7,6 @@ body:
     attributes:
       label: Beställare
       description: Vem på Samhall blir glad när detta jobb blir Done? En processledare, person eller avdelning.
-    validations:
-      required: true
-  - type: textarea
-    id: beskrivning
-    attributes:
-      label: Beskrivning
-      description: Vilket affärsmål eller användarbehov ska uppfyllas?
-    validations:
-      required: true
-  - type: textarea
-    id: effekt-affarsnytta
-    attributes:
-      label: Effekt & Affärsnytta
-      description: Vilken effekt förväntas och vilket värde skapar det för Samhall?
-    validations:
-      required: true
-  - type: textarea
-    id: behov
-    attributes:
-      label: Behov
-      description: Vilket problem eller behov löser detta?
     validations:
       required: true
   - type: input
@@ -38,10 +17,31 @@ body:
     validations:
       required: true
   - type: textarea
+    id: beskrivning
+    attributes:
+      label: Beskrivning
+      description: Vilket affärsmål eller användarbehov ska uppfyllas?
+    validations:
+      required: true
+  - type: textarea
+    id: behov
+    attributes:
+      label: Behov
+      description: Vilket problem eller behov löser detta?
+    validations:
+      required: false
+  - type: textarea
     id: koppling-verksamhetsplan
     attributes:
       label: Koppling till verksamhetsplan
       description: Vilket mål eller vilken aktivitet i verksamhetsplanen bidrar detta till?
+    validations:
+      required: false
+  - type: textarea
+    id: effekt-affarsnytta
+    attributes:
+      label: Effekt & Affärsnytta
+      description: Vilken effekt förväntas och vilket värde skapar det för Samhall? Hur mäter vi om vi lyckats?
     validations:
       required: false
   - type: textarea
@@ -52,4 +52,4 @@ body:
       value: |
         - [ ] 
     validations:
-      required: true
+      required: false
