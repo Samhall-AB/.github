@@ -1,0 +1,55 @@
+name: Epic
+description: Ett stort, övergripande arbetspaket som spänner över flera features.
+type: Epic
+body:
+  - type: input
+    id: bestallare
+    attributes:
+      label: Beställare
+      description: Vem på Samhall blir glad när detta jobb blir Done? En processledare, person eller avdelning.
+    validations:
+      required: true
+  - type: textarea
+    id: beskrivning
+    attributes:
+      label: Beskrivning
+      description: Vilket affärsmål eller användarbehov ska uppfyllas?
+    validations:
+      required: true
+  - type: textarea
+    id: effekt-affarsnytta
+    attributes:
+      label: Effekt & Affärsnytta
+      description: Vilken effekt förväntas och vilket värde skapar det för Samhall?
+    validations:
+      required: true
+  - type: textarea
+    id: behov
+    attributes:
+      label: Behov
+      description: Vilket problem eller behov löser detta?
+    validations:
+      required: true
+  - type: input
+    id: mottagare-anvandare
+    attributes:
+      label: Mottagare/Användare
+      description: Vilka tar emot eller använder resultatet?
+    validations:
+      required: true
+  - type: textarea
+    id: koppling-verksamhetsplan
+    attributes:
+      label: Koppling till verksamhetsplan
+      description: Vilket mål eller vilken aktivitet i verksamhetsplanen bidrar detta till?
+    validations:
+      required: false
+  - type: textarea
+    id: acceptanskriterier
+    attributes:
+      label: Acceptanskriterier
+      description: Vad ska vara uppfyllt för att epicen ska anses vara klar?
+      value: |
+        - [ ] 
+    validations:
+      required: true
