@@ -34,7 +34,7 @@ body:
     id: koppling-verksamhetsplan
     attributes:
       label: Koppling till verksamhetsplan
-      description: Vilket mål eller vilken aktivitet i verksamhetsplanen bidrar detta till?
+      description: Vilket mål eller vilken aktivitet i verksamhetsplanen bidrar detta till? Ange också "parent" till rätt initiativ (se https://github.com/Samhall-AB/org-teknikportfolj/issues?q=is%3Aissue+state%3Aopen+type%3AInitiative)
     validations:
       required: false
   - type: textarea
