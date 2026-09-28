@@ -1,0 +1,36 @@
+name: Story
+description: Ett litet, avgränsat värde för en användare som bidrar till en feature.
+type: Story
+body:
+  - type: input
+    id: bestallare
+    attributes:
+      label: Beställare
+      description: Vem på Samhall blir glad när detta jobb blir Done? En processledare, person eller avdelning.
+    validations:
+      required: true
+  - type: input
+    id: mottagare-anvandare
+    attributes:
+      label: Mottagare/Användare
+      description: Vilka tar emot eller använder resultatet?
+    validations:
+      required: true
+  - type: textarea
+    id: beskrivning
+    attributes:
+      label: Beskrivning
+      description: Beskriv behovet ur användarens perspektiv. Ange också "parent" till rätt feature.
+      value: |
+        Som <användare> vill jag <göra något> så att <värde>.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptanskriterier
+    attributes:
+      label: Acceptanskriterier
+      description: Vad ska vara uppfyllt för att storyn ska anses vara klar?
+      value: |
+        - [ ]
+    validations:
+      required: false
