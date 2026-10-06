@@ -5,10 +5,14 @@ body:
   - type: markdown
     attributes:
       value: |
-        En synk är en förfrågan om ett samtal med ett annat team, för att få input eller hjälp. För att det ska fungera behöver du:
+        En synk är en förfrågan om ett samtal med ett annat team för att få input, vägledning eller hjälp att reda ut ett behov. Synken är inte en beställning eller ett löfte om att något ska vara genomfört till ett visst datum.
+
+        Sätt Target date till senast när ni hoppas ha haft synken och fått den input ni behöver. Välj datum med framförhållning så att det andra teamet hinner förbereda samtalet. Om ni efter synken kommer överens om att något ska genomföras planeras det separat. Räkna med att synken kan ske under en sprint och att eventuellt genomförandearbete kan planeras in en eller två sprintar därefter.
+
+        För att det ska fungera behöver du:
 
         1. Sätta **parent** till er egen Feature eller Epic som synken gäller.
-        2. Sätta **Target date** till senast när ni behöver inputen.
+        2. Sätta **Target date** till senast när ni hoppas ha haft synken – det är inte ett leveransdatum.
         3. **Flytta** issuet till **det andra teamets Project** – det är där de ser att ni vill prata med dem.
 
         > **Synken ska bara ligga på det andra teamets bräda, inte på er egen.**
@@ -39,8 +43,8 @@ body:
   - type: textarea
     id: fragor
     attributes:
-      label: Vad vi behöver från er
-      description: Vilka frågor vill vi ha svar på, eller vilket beslut behöver vi fatta tillsammans?
+      label: Vad vi hoppas få hjälp att reda ut
+      description: Vad försöker vi åstadkomma, och vilken input, vägledning eller vilket beslut hoppas vi få från er i samtalet?
       value: |
         -
     validations:
