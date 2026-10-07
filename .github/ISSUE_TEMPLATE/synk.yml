@@ -7,7 +7,7 @@ body:
       value: |
         En synk är en förfrågan om ett samtal med ett annat team för att få input, vägledning eller hjälp att reda ut ett behov. Synken är inte en beställning eller ett löfte om att något ska vara genomfört till ett visst datum.
 
-        Sätt Target date till senast när ni hoppas ha haft synken och fått den input ni behöver. Välj datum med framförhållning så att det andra teamet hinner förbereda samtalet. Om ni efter synken kommer överens om att något ska genomföras planeras det separat. Räkna med att synken kan ske under en sprint och att eventuellt genomförandearbete kan planeras in en eller två sprintar därefter.
+        Räkna med att synken kan ta upp till en sprint att få till, och att eventuellt genomförandearbete planeras in en eller flera sprintar därefter beroende på komplexitet och kapacitet.
 
         För att det ska fungera behöver ni:
 
