@@ -44,7 +44,7 @@ body:
     id: fragor
     attributes:
       label: Vad vi hoppas få hjälp att reda ut
-      description: Vad försöker vi åstadkomma, och vilken input, vägledning eller vilket beslut hoppas vi få från er i samtalet?
+      description: Vilken input, vägledning eller vilket beslut hoppas vi få från er i samtalet?
       value: |
         -
     validations:
